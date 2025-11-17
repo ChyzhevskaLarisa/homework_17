@@ -294,6 +294,7 @@ def get_address():
     full_addr = dict(zip(addrParam, full_addr))
     return full_addr
 
+
 def get_hobbies():
 	hobbiesFile = csv.reader(open(full_path('data.csv'), 'r'))
 	allHobbies = []
