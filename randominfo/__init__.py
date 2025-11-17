@@ -295,6 +295,7 @@ def get_address():
     return full_addr
 
 
+
 def get_hobbies():
 	hobbiesFile = csv.reader(open(full_path('data.csv'), 'r'))
 	allHobbies = []
