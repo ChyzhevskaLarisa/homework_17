@@ -345,6 +345,7 @@ class Person:
 		else:
 			raise ValueError("Attribute name only contains alphabets and digits.")
 
+
 	def get_details(self):
 		return {
 			"first_name": self.first_name,
